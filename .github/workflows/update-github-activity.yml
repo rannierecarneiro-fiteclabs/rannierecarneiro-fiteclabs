@@ -27,10 +27,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: rannierecarneiro-fiteclabs
 
+      - name: Generate contribution graph
+        run: node scripts/graph.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: rannierecarneiro-fiteclabs
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md activity-graph.svg
           git diff --cached --quiet || git commit -m "chore: update github activity"
           git push
