@@ -19,6 +19,10 @@ Perfectionist by nature, always aiming for maintainability and visual excellence
 - Scalable front-end architecture
 - UX refinement & accessibility (a11y)
 - Clean, maintainable, and performance-oriented code
+- Authentication flows & SSO front-ends (single sign-on, multi-system portals)
+- Large-scale refactoring and architecture modernization — Feature-Driven by preference, pragmatic by choice
+- Multi-client ecosystems sharing a single API contract (web, admin, mobile)
+- Spec-Driven Development & AI-assisted engineering workflows
 
 ---
 
@@ -67,11 +71,15 @@ Perfectionist by nature, always aiming for maintainability and visual excellence
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+
 
 ### 📐 Methodologies & Architecture
-- Feature-Based Architecture
-- Vertical Slices
+- Feature-Driven Architecture
 - Component-Driven Development
+- Spec-Driven Development (SDD)
 - Scrum
 - Kanban
 
@@ -79,7 +87,9 @@ Perfectionist by nature, always aiming for maintainability and visual excellence
 
 ## 🏢 Experience
 
-Worked on large-scale projects for global tech brands such as **LG, Acer, Samsung, and others**.
+- **Single Sign-On & systems aggregator** — unified login portal integrating multiple internal systems
+- **B2B Marketplace** — front-end refactoring to Feature-Driven architecture
+- Large-scale projects for global consumer-electronics brands
 
 ---
 
